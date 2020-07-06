@@ -3,7 +3,7 @@ pipeline {
     stages { 
         stage('Build') { 
             steps { 
-               echo 'This is a minimal pipeline by Anand Reddy.' 
+               echo 'This is a minimal pipeline by Anand Reddy..' 
             }
         }
     }
