@@ -1,5 +1,6 @@
 pipeline { 
     agent any  
+    sandbox: false
     stages { 
         stage('Build') { 
             steps { 
